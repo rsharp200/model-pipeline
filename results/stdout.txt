@@ -1,0 +1,72 @@
+[I 21:55:12.853 NotebookApp] Writing notebook server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 21:55:13.118 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 21:55:13.828 NotebookApp] JupyterLab extension loaded from /opt/conda/lib/python3.6/site-packages/jupyterlab
+[I 21:55:13.828 NotebookApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 21:55:14.039 NotebookApp] Serving notebooks from local directory: /
+[I 21:55:14.039 NotebookApp] The Jupyter Notebook is running at:
+[I 21:55:14.039 NotebookApp] http://run-5eb7268b0ab8e54e65b74fea-7nbkk:8888/akshay_ambekar/model-export-demo/notebookSession/5eb7268b0ab8e54e65b74fea/
+[I 21:55:14.039 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 21:55:14.230 NotebookApp] 302 GET /akshay_ambekar/model-export-demo/notebookSession/5eb7268b0ab8e54e65b74fea/ (100.96.81.133) 0.73ms
+[I 21:55:14.428 NotebookApp] 302 GET /akshay_ambekar/model-export-demo/notebookSession/5eb7268b0ab8e54e65b74fea/ (100.96.81.133) 0.33ms
+[I 21:55:14.703 NotebookApp] 302 GET /akshay_ambekar/model-export-demo/notebookSession/5eb7268b0ab8e54e65b74fea/ (100.96.81.133) 0.31ms
+[I 21:59:11.632 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 08:42:23.295 LabApp] Writing notebook server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 08:42:23.462 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 08:42:24.022 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.7/site-packages/jupyterlab
+[I 08:42:24.022 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 08:42:24.236 LabApp] Serving notebooks from local directory: /
+[I 08:42:24.237 LabApp] The Jupyter Notebook is running at:
+[I 08:42:24.237 LabApp] http://run-5f7c2dcbf701687030407bce-shcns:8888/bryan_prosser/churn-model/notebookSession/5f7c2dcbf701687030407bce/
+[I 08:42:24.237 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 08:42:24.242 LabApp] 302 GET /bryan_prosser/churn-model/notebookSession/5f7c2dcbf701687030407bce/ (100.96.143.129) 0.72ms
+[I 08:42:24.461 LabApp] 302 GET /bryan_prosser/churn-model/notebookSession/5f7c2dcbf701687030407bce/ (100.96.143.129) 0.45ms
+[I 08:42:24.865 LabApp] 302 GET /bryan_prosser/churn-model/notebookSession/5f7c2dcbf701687030407bce/ (100.96.143.129) 0.48ms
+[I 08:42:28.181 LabApp] Build is up to date
+[I 08:45:18.991 LabApp] Writing notebook-signing key to /home/ubuntu/.local/share/jupyter/notebook_secret
+[W 08:45:18.992 LabApp] Notebook home/ubuntu/code/BryanDomino_churn-model/Model_Export_Workflow_akshay_test_model.ipynb is not trusted
+[I 08:45:20.067 LabApp] Kernel started: 0483640f-e7a3-44b3-af4b-e362811f54f2
+[I 08:46:54.105 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/run_tests_prebuild.sh
+[I 08:56:56.596 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/build_and_export_model_as_pip_pkg.sh
+[I 08:56:59.512 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/build_and_export_model_as_pip_pkg.sh
+[I 09:03:08.617 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/BuildAndExportModelToECR.py
+[I 09:07:03.119 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/BuildAndExportModelToECR.py
+[I 09:09:41.107 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/BuildAndExportModelToECR.py
+[I 09:19:52.232 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/RunTestsInDomino.py
+[I 09:21:42.958 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/BuildAndExportModelToECR.py
+[I 09:21:51.387 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/BuildAndExportModelToECR.py
+[I 08:27:52.595 LabApp] Writing notebook server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 08:27:52.777 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 08:27:53.354 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.7/site-packages/jupyterlab
+[I 08:27:53.354 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 08:27:53.575 LabApp] Serving notebooks from local directory: /
+[I 08:27:53.575 LabApp] The Jupyter Notebook is running at:
+[I 08:27:53.576 LabApp] http://run-5f7d7bd866c3b1007ffc3888-9xh9z:8888/bryan_prosser/churn-model/notebookSession/5f7d7bd866c3b1007ffc3888/
+[I 08:27:53.576 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 08:27:53.581 LabApp] 302 GET /bryan_prosser/churn-model/notebookSession/5f7d7bd866c3b1007ffc3888/ (100.96.4.164) 0.68ms
+[I 08:27:53.877 LabApp] 302 GET /bryan_prosser/churn-model/notebookSession/5f7d7bd866c3b1007ffc3888/ (100.96.4.164) 0.48ms
+[I 08:27:54.268 LabApp] 302 GET /bryan_prosser/churn-model/notebookSession/5f7d7bd866c3b1007ffc3888/ (100.96.4.164) 0.51ms
+[I 08:27:57.611 LabApp] Build is up to date
+[I 08:30:32.951 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/run_tests_prebuild.sh
+[I 08:30:44.564 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/run_tests_prebuild.sh
+[I 08:32:44.934 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/run_tests_prebuild.sh
+[I 08:34:00.777 LabApp] Writing notebook-signing key to /home/ubuntu/.local/share/jupyter/notebook_secret
+[W 08:34:00.778 LabApp] Notebook home/ubuntu/code/BryanDomino_churn-model/Model_Export_Workflow_akshay_test_model.ipynb is not trusted
+[I 08:34:01.948 LabApp] Kernel started: 11d5f840-dd63-4559-92aa-c1858bf77663
+[I 08:34:53.443 LabApp] Copying home/ubuntu/code/BryanDomino_churn-model/run_tests_prebuild.sh to /home/ubuntu/code/BryanDomino_churn-model
+[I 08:35:42.228 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/run_tests_postbuild.sh
+[I 08:35:55.875 LabApp] Copying home/ubuntu/code/BryanDomino_churn-model/BuildAndExportModelToECR.py to /home/ubuntu/code/BryanDomino_churn-model
+[I 08:36:32.692 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/BuildAndExportModelToECR.py
+[I 08:38:29.522 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/setup.py
+[I 08:40:34.093 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/BuildAndExportModelToECR.py
+[I 08:42:34.467 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/BuildAndExportModelToECR.py
+[I 08:46:26.618 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/BuildAndExportModelToECR.py
+[I 08:47:24.946 LabApp] Copying home/ubuntu/code/BryanDomino_churn-model/BuildModel.py to /home/ubuntu/code/BryanDomino_churn-model
+[I 08:48:06.574 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/BuildModel.py
+[I 08:48:28.929 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/ExportModel.py
+[I 09:00:32.077 LabApp] Starting buffering for 11d5f840-dd63-4559-92aa-c1858bf77663:135d1131-d187-44ec-bde1-befd7b64bfa1
+[I 09:02:58.982 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/run_tests_postbuild.sh
+[I 09:03:10.359 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/run_tests_postbuild.sh
+[I 09:03:11.576 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/run_tests_postbuild.sh
+[I 09:03:11.864 LabApp] Saving file at /home/ubuntu/code/BryanDomino_churn-model/run_tests_postbuild.sh

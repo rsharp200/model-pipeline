@@ -1,0 +1,78 @@
+version: 2.1
+
+orbs:
+  python: circleci/python@0.2.1
+
+jobs:
+  test-model:
+    executor: python/default
+    steps:
+      - checkout
+      - python/load-cache
+      - python/install-deps
+      - python/save-cache
+      - run:
+          command: ./run_tests_prebuild.sh
+          name: Test Model
+
+  build-model:
+    executor: python/default
+    steps:
+      - checkout
+      - python/load-cache
+      - python/install-deps
+      - python/save-cache
+      - run:
+          command: python3 BuildModel.py
+          name: Build Model
+
+  test-build:
+    executor: python/default
+    steps:
+      - checkout
+      - python/load-cache
+      - python/install-deps
+      - python/save-cache
+      - run:
+          command: ./run_tests_postbuild.sh
+          name: Test Build
+
+  export-model-to-ECR:
+    executor: python/default
+    steps:
+      - checkout
+      - python/load-cache
+      - python/install-deps
+      - python/save-cache
+      - run:
+          command: python3 ExportModel.py
+          name: Export Model
+
+
+workflows:
+  main:
+    jobs:
+      - test-model:
+          filters:
+            tags:
+              only: /^\d+\.\d+\.\d+$/
+      - build-model:
+          requires:
+            - test-model
+          filters:
+            tags:
+              only: /^\d+\.\d+\.\d+$/
+      - test-build:
+          requires:
+            - build-model
+          filters:
+            tags:
+              only: /^\d+\.\d+\.\d+$/
+      - export-model-to-ECR:
+          requires:
+            - test-model
+            - build-model
+            - test-build
+          filters:
+            tags:
+              only: /^\d+\.\d+\.\d+$/
