@@ -23,7 +23,7 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: python3 BuildModel.py
+          command: ./buildmodel.sh
           name: Build Model
 
   test-build:
@@ -45,7 +45,7 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: python3 ExportModel.py
+          command: ./exportmodel.sh
           name: Export Model
 
 
