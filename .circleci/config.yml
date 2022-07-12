@@ -68,7 +68,7 @@ workflows:
           filters:
             tags:
               only: /^\d+\.\d+\.\d+$/
-      - export-model-to-ECR:
+      - export-model:
           requires:
             - test-model
             - build-model
