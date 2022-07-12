@@ -11,7 +11,7 @@ setuptools.setup(
     description="Seabed-Object-Detection",
     long_description="Model to identify objects on seabed",
     long_description_content_type="text/markdown",
-    url="https://github.com/andrealowe/cmodel-pipeline",
+    url="https://github.com/andrealowe/model-pipeline",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
